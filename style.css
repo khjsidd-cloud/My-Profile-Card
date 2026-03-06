@@ -1,0 +1,102 @@
+body {
+    background: #6f73d2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.top-section {
+    background: white;
+    padding: 30px 20px 40px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #ffd1dc;
+    object-fit: cover;
+}
+
+.bottom-section {
+    background: #fff0f3;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.location {
+    color: #000000;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.job {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 5px 0 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    background: #ffb6c1;
+    color: #000000;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #ff9eb5;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ffd1dc;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+    text-align: left;
+}
+
+.skills-text {
+    color: #000000;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    word-spacing: 15px;
+}
